@@ -1,0 +1,57 @@
+
+/* For Contact Bar */
+
+.contact-bar {
+	
+	word-spacing: 15px;
+	
+}
+
+.contact-icon {
+	
+	text-decoration: none;
+	width: 32px;
+	height: 32px;
+	
+}
+
+/* For Column Split */
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* body */
+body {
+	
+	padding-top: 100px;
+	max-width: 800px;
+	padding-left: 150px;
+	padding-right: 20px;
+	font-family: 'BioRhyme', serif;
+	font-size: 18px;
+	
+}
+
+/* Links */
+
+a:link, a:visited {
+	
+	color:darkgray;
+	text-decoration: none;
+	
+}
+
+a:hover, a:active {
+	
+	color: red;
+	text-decoration: none;
+	
+}
+
